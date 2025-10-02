@@ -2,20 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Segoe UI', sans-serif; 
+
 }
 
 body {
-    background-color: lightblue;
-    color: white;
+    background-color: lightcyan;
+    color: black;
     min-height: 100vh;
     line-height: 1.5;
     /* Quitar display: flex aquí */
+   
 }
 
 
 /* Barra fija arriba */
 .navbar-brand {
+    color:black;
     position: fixed;
     top: 0;
     left: 0;
@@ -25,20 +28,22 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: dodgerblue;
-    backdrop-filter: blur(10px);
+    background-color: deepskyblue;
     line-height: normal;
     z-index: 1000;
     font-size:1.5em;
+   
 }
 
 .codigo-voucher {
-    background-color: lightblue;
+   
+  
     padding: 120px 60px;
     border-radius: 8px;
     margin: 0;
     font-size: 1.5em;/*Tamañó de la Letra */
     text-align: center;
+    
 }
 
 .boton-Siguiente{
@@ -47,18 +52,26 @@ body {
 
 }
 .logofacu {
-    width: 100px; /* Tamaño del Logo */
+    width: 100px; /* Tamaño del Logo de la facu */
     height: auto;
-    margin-left: auto; /* Manda al Logo a La Derecha */
+    margin-left: auto; /* Manda UTN  a La Derecha */
     display: block;
 }
-
+/*Imagenes de los Productos*/
 .img-fluid {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 8px;
-    display: block;
+    width: 230px; /*Ancho de la Foto*/
+    height: 230px; /*Alto De las Fotos*/
+   
+ 
+    box-shadow: 0 6px 10px rgba(136, 0, 255, 0.5); /*Color del Bordecito en Violeta*/
+    border-radius: 28px; /*Le Genera Bordecito para que no parezca un cuadrado*/
+    object-fit: cover; /* Ajuta la foto para que no quede estirada a lo 4:3 */
+  
+    gap: 20px; /* Espacio entre cada Foto */
+    justify-content: center; /*  centra las imagenes */
+
 }
+.row g-3 {
+   
 }
 
