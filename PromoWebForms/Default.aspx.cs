@@ -12,7 +12,7 @@ namespace PromoWeb
             var codigo = (txtCodigo.Text ?? "").Trim();
             if (string.IsNullOrEmpty(codigo))
             {
-                lblError.Text = "Ingresá el código.";
+                lblError.Text = "Ingresá el código a Canjear.";
                 return;
             }
 

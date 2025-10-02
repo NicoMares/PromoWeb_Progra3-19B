@@ -4,3 +4,9 @@ C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\Prom
 C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWebForms.csproj.CoreCompileInputs.cache
 C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWeb.dll
 C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWeb.pdb
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\bin\PromoWeb.dll
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\bin\PromoWeb.pdb
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWebForms.csproj.AssemblyReference.cache
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWebForms.csproj.CoreCompileInputs.cache
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWeb.dll
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWeb.pdb

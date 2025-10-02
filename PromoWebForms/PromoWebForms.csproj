@@ -46,6 +46,7 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DAL\Estilos.css" />
     <Content Include="Default.aspx" />
     <Content Include="Exito.aspx" />
     <Content Include="SeleccionPremio.aspx" />
@@ -106,6 +107,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>

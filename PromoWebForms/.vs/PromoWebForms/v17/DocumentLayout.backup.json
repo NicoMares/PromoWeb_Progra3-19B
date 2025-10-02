@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aledesma\\source\\repos\\PromoWeb_Progra3-19B\\PromoWebForms\\",
+  "WorkspaceRootPath": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|c:\\users\\aledesma\\source\\repos\\promoweb_progra3-19b\\promowebforms\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|f:\\github\\facultad\\progra 3- segundo intento\\promoweb_progra3-19b\\promowebforms\\dal\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|solutionrelative:dal\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|c:\\users\\aledesma\\source\\repos\\promoweb_progra3-19b\\promowebforms\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|f:\\github\\facultad\\progra 3- segundo intento\\promoweb_progra3-19b\\promowebforms\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|f:\\github\\facultad\\progra 3- segundo intento\\promoweb_progra3-19b\\promowebforms\\default.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|solutionrelative:default.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|f:\\github\\facultad\\progra 3- segundo intento\\promoweb_progra3-19b\\promowebforms\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|solutionrelative:default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|f:\\github\\facultad\\progra 3- segundo intento\\promoweb_progra3-19b\\promowebforms\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|solutionrelative:site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|f:\\github\\facultad\\progra 3- segundo intento\\promoweb_progra3-19b\\promowebforms\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|c:\\users\\aledesma\\source\\repos\\promoweb_progra3-19b\\promowebforms\\dal\\promorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|solutionrelative:dal\\promorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|c:\\users\\aledesma\\source\\repos\\promoweb_progra3-19b\\promowebforms\\registrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|solutionrelative:registrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,62 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\aledesma\\source\\repos\\PromoWeb_Progra3-19B\\PromoWebForms\\Default.aspx",
-              "RelativeDocumentMoniker": "Default.aspx",
-              "ToolTip": "C:\\Users\\aledesma\\source\\repos\\PromoWeb_Progra3-19B\\PromoWebForms\\Default.aspx",
-              "RelativeToolTip": "Default.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-01T20:02:43.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\aledesma\\source\\repos\\PromoWeb_Progra3-19B\\PromoWebForms\\Web.config",
+              "DocumentMoniker": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\Web.config",
               "RelativeDocumentMoniker": "Web.config",
-              "ToolTip": "C:\\Users\\aledesma\\source\\repos\\PromoWeb_Progra3-19B\\PromoWebForms\\Web.config",
+              "ToolTip": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\Web.config",
               "RelativeToolTip": "Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-10-01T20:02:06.122Z",
+              "WhenOpened": "2025-10-02T02:11:50.835Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PromoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\aledesma\\source\\repos\\PromoWeb_Progra3-19B\\PromoWebForms\\DAL\\PromoRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\PromoRepository.cs",
-              "ToolTip": "C:\\Users\\aledesma\\source\\repos\\PromoWeb_Progra3-19B\\PromoWebForms\\DAL\\PromoRepository.cs",
-              "RelativeToolTip": "DAL\\PromoRepository.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Default.aspx.designer.cs",
+              "DocumentMoniker": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\Default.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Default.aspx.designer.cs",
+              "ToolTip": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\Default.aspx.designer.cs",
+              "RelativeToolTip": "Default.aspx.designer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T20:01:43.837Z",
+              "WhenOpened": "2025-10-02T01:56:19.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Registrar.aspx",
-              "DocumentMoniker": "C:\\Users\\aledesma\\source\\repos\\PromoWeb_Progra3-19B\\PromoWebForms\\Registrar.aspx",
-              "RelativeDocumentMoniker": "Registrar.aspx",
-              "ToolTip": "C:\\Users\\aledesma\\source\\repos\\PromoWeb_Progra3-19B\\PromoWebForms\\Registrar.aspx",
-              "RelativeToolTip": "Registrar.aspx",
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "Default.aspx.cs",
+              "ToolTip": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\Default.aspx.cs",
+              "RelativeToolTip": "Default.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T01:56:09.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Site.Master",
+              "DocumentMoniker": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\Site.Master",
+              "RelativeDocumentMoniker": "Site.Master",
+              "ToolTip": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\Site.Master",
+              "RelativeToolTip": "Site.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-01T20:00:34.927Z",
+              "WhenOpened": "2025-10-02T01:04:59.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\Default.aspx",
+              "RelativeDocumentMoniker": "Default.aspx",
+              "ToolTip": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\Default.aspx",
+              "RelativeToolTip": "Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-02T00:59:07.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Estilos.css",
+              "DocumentMoniker": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\DAL\\Estilos.css",
+              "RelativeDocumentMoniker": "DAL\\Estilos.css",
+              "ToolTip": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\DAL\\Estilos.css",
+              "RelativeToolTip": "DAL\\Estilos.css",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-01T23:29:06.821Z",
               "EditorCaption": ""
             }
           ]

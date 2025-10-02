@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: lightblue;
+    color: white;
+    min-height: 100vh;
+    line-height: 1.5;
+    /* Quitar display: flex aquí */
+}
+
+
+/* Barra fija arriba */
+.navbar-brand {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: dodgerblue;
+    backdrop-filter: blur(10px);
+    line-height: normal;
+    z-index: 1000;
+    font-size:1.5em;
+}
+
+.codigo-voucher {
+    background-color: lightblue;
+    padding: 120px 60px;
+    border-radius: 8px;
+    margin: 0;
+    font-size: 1.5em;/*Tamañó de la Letra */
+    text-align: center;
+}
+
+.boton-Siguiente{
+
+
+
+}
+.logofacu {
+    width: 100px; /* Tamaño del Logo */
+    height: auto;
+    margin-left: auto; /* Manda al Logo a La Derecha */
+    display: block;
+}
+
+.img-fluid {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+}
+
