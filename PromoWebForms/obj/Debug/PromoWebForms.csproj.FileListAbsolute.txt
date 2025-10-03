@@ -10,3 +10,9 @@ F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\
 F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWebForms.csproj.CoreCompileInputs.cache
 F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWeb.dll
 F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWeb.pdb
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebForms\bin\PromoWeb.dll
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebForms\bin\PromoWeb.pdb
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWebForms.csproj.AssemblyReference.cache
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWebForms.csproj.CoreCompileInputs.cache
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWeb.dll
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWeb.pdb
