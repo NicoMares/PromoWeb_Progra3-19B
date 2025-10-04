@@ -1,33 +1,24 @@
 using System;
 using System.Web.UI.WebControls;
 using PromoWeb.DAL;
+using Dominio;
+using Business;
 
 namespace PromoWeb
 {
     public partial class SeleccionPremio : System.Web.UI.Page
     {
         private readonly PromoRepository _repo = new PromoRepository();
+        private readonly PromoBusiness _promoBsns  = new PromoBusiness();
 
         protected void Page_Load(object sender, EventArgs e)
         {
             if (IsPostBack) return;
 
-            var codigo = Request.QueryString["code"];
-            if (string.IsNullOrWhiteSpace(codigo))
-            {
-                Response.Redirect("Default.aspx");
-                return;
-            }
-
-            bool usado;
-            if (!_repo.TryValidarVoucher(codigo, out usado) || usado)
-            {
-                Response.Redirect("VoucherInvalido.aspx?code=" + Server.UrlEncode(codigo));
-                return;
-            }
-
+            var codigo = (string)Session["VoucherCodigo"];
+            
             hfCodigo.Value = codigo;
-            repPremios.DataSource = _repo.GetArticulos();
+            repPremios.DataSource = _promoBsns.ListarPremios();
             repPremios.DataBind();
         }
 

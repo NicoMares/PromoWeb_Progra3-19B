@@ -25,7 +25,7 @@ namespace Data
 
         public AccesoDatos()
         {
-            string connectionString = ConfigurationManager.ConnectionStrings["promoDB"].ConnectionString;
+            string connectionString = ConfigurationManager.ConnectionStrings["promosDB"].ConnectionString;
             conexion = new SqlConnection(connectionString);
             comando = new SqlCommand();
             

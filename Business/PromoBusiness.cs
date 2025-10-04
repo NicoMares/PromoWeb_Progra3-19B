@@ -115,7 +115,7 @@ namespace Business
                 throw new Exception("Ciudad requerida.");
             }
 
-            if (c.CodigoPostal <= 0)
+            if (c.CodigoPostal <= 0 || string.IsNullOrWhiteSpace(c.ToString()))
             {
                 throw new Exception("Código Postal inválido.");
             }
@@ -147,6 +147,58 @@ namespace Business
 
             ValidarClienteObligatorio(c);
             _clienteRepo.Actualizar(c);
+        }
+
+        public void ConfirmarParticipacion(string codigoVoucher, int idCliente, int idArticulo)
+        {
+            if (string.IsNullOrWhiteSpace(codigoVoucher))
+            {
+                throw new Exception("Código de voucher requerido.");
+            }
+
+            if (idCliente <= 0)
+            {
+                throw new Exception("Cliente inválido.");
+            }
+
+            if (idArticulo <= 0)
+            {
+                throw new Exception("Premio inválido.");
+            }
+
+            var v = ValidarVoucher(codigoVoucher);
+
+            bool premioExiste = false;
+            var premios = _articuloRepo.Listar();
+            foreach (var a in premios)
+            {
+                if (a.Id == idArticulo)
+                {
+                    premioExiste = true;
+                    break;
+                }
+            }
+
+            if (!premioExiste)
+            {
+                throw new Exception("El premio seleccionado no existe.");
+            }
+
+            _voucherRepo.MarcarUsado(v.CodigoVoucher, idCliente, idArticulo);
+        }
+
+        public string BuscarNombreArticulo(int id)
+        {
+            try
+            {
+                return _articuloRepo.ObtenerNombrePorCodigo(id);
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
         }
 
     }

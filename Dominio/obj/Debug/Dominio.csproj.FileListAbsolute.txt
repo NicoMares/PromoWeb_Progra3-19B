@@ -1,0 +1,6 @@
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\Dominio\bin\Debug\Dominio.dll
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\Dominio\bin\Debug\Dominio.pdb
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\Dominio\obj\Debug\Dominio.dll
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\Dominio\obj\Debug\Dominio.pdb

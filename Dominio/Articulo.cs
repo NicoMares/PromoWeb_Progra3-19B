@@ -17,6 +17,9 @@ namespace Dominio
         public int IdCategoria { get; set; }
         public decimal Precio { get; set; }
         public List<Imagen> Imagenes { get; set; } = new List<Imagen>();
+
+        public string PrimeraImagenUrl =>
+        Imagenes != null && Imagenes.Count > 0 ? Imagenes[0].ImagenUrl : "img/noimage.png";
     }
 }
 

@@ -1,5 +1,7 @@
 using System;
 using PromoWeb.DAL;
+using Dominio;
+using Business;
 
 namespace PromoWeb
 {
@@ -9,21 +11,39 @@ namespace PromoWeb
 
         protected void btnSiguiente_Click(object sender, EventArgs e)
         {
-            var codigo = (txtCodigo.Text ?? "").Trim();
-            if (string.IsNullOrEmpty(codigo))
+            //var codigo = (txtCodigo.Text ?? "").Trim();
+            //if (string.IsNullOrEmpty(codigo))
+            //{
+            //    lblError.Text = "Ingresá el código a Canjear.";
+            //    return;
+            //}
+
+            //bool usado;
+            //var ok = _repo.TryValidarVoucher(codigo, out usado);
+            //if (!ok || usado)
+            //{
+            //    Response.Redirect("VoucherInvalido.aspx?code=" + Server.UrlEncode(codigo));
+            //    return;
+            //}
+            //Response.Redirect("SeleccionPremio.aspx?code=" + Server.UrlEncode(codigo));
+
+
+            PromoBusiness promoBsns = new PromoBusiness();
+
+            try
             {
-                lblError.Text = "Ingresá el código a Canjear.";
-                return;
+                var voucher = promoBsns.ValidarVoucher(txtCodigo.Text.Trim());
+
+                Session["VoucherCodigo"] = voucher.CodigoVoucher;
+
+                Response.Redirect("SeleccionPremio.aspx");
+
+            }
+            catch (Exception ex)
+            {
+                lblError.Text = ex.Message;
             }
 
-            bool usado;
-            var ok = _repo.TryValidarVoucher(codigo, out usado);
-            if (!ok || usado)
-            {
-                Response.Redirect("VoucherInvalido.aspx?code=" + Server.UrlEncode(codigo));
-                return;
-            }
-            Response.Redirect("SeleccionPremio.aspx?code=" + Server.UrlEncode(codigo));
         }
     }
 }

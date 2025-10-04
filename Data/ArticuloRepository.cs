@@ -68,5 +68,27 @@ namespace Data
             }
         }
 
+        public string ObtenerNombrePorCodigo(int codigoArticulo)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                datos.setearConsulta("SELECT Nombre FROM Articulos WHERE id = @codigo");
+                datos.setearParametro("@codigo", codigoArticulo);
+                datos.ejecutarLectura();
+
+                if (datos.Lector.Read())
+                {
+                    return (string)datos.Lector["Nombre"];
+                }
+
+                throw new Exception("Artículo no encontrado.");
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
     }
 }

@@ -3,31 +3,28 @@
   "WorkspaceRootPath": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\PromoWebForms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|e:\\documentos\\utn\\3c - programacion iii\\repos_g19\\promoweb_progra3-19b\\promowebforms\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|solutionrelative:default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|e:\\documentos\\utn\\3c - programacion iii\\repos_g19\\promoweb_progra3-19b\\promowebforms\\dal\\promorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|solutionrelative:dal\\promorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B1EF45A-5D16-4056-8ED7-2DF801442D7C}|..\\Data\\Data.csproj|e:\\documentos\\utn\\3c - programacion iii\\repos_g19\\promoweb_progra3-19b\\data\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{99F2F570-EB48-4AAD-BCB7-AA308B01BEDA}|..\\Business\\Business.csproj|e:\\documentos\\utn\\3c - programacion iii\\repos_g19\\promoweb_progra3-19b\\business\\promobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B1EF45A-5D16-4056-8ED7-2DF801442D7C}|..\\Data\\Data.csproj|e:\\documentos\\utn\\3c - programacion iii\\repos_g19\\promoweb_progra3-19b\\data\\voucherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B1EF45A-5D16-4056-8ED7-2DF801442D7C}|..\\Data\\Data.csproj|e:\\documentos\\utn\\3c - programacion iii\\repos_g19\\promoweb_progra3-19b\\data\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B1EF45A-5D16-4056-8ED7-2DF801442D7C}|..\\Data\\Data.csproj|e:\\documentos\\utn\\3c - programacion iii\\repos_g19\\promoweb_progra3-19b\\data\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|e:\\documentos\\utn\\3c - programacion iii\\repos_g19\\promoweb_progra3-19b\\promowebforms\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|e:\\documentos\\utn\\3c - programacion iii\\repos_g19\\promoweb_progra3-19b\\promowebforms\\registrar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|solutionrelative:registrar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1EF45A-5D16-4056-8ED7-2DF801442D7C}|..\\Data\\Data.csproj|e:\\documentos\\utn\\3c - programacion iii\\repos_g19\\promoweb_progra3-19b\\data\\voucherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F402FF-9FD6-4E21-A858-F2243CFFF2D9}|..\\Dominio\\Dominio.csproj|e:\\documentos\\utn\\3c - programacion iii\\repos_g19\\promoweb_progra3-19b\\dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|e:\\documentos\\utn\\3c - programacion iii\\repos_g19\\promoweb_progra3-19b\\promowebforms\\exito.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|solutionrelative:exito.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|e:\\documentos\\utn\\3c - programacion iii\\repos_g19\\promoweb_progra3-19b\\promowebforms\\registrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|solutionrelative:registrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,21 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Default.aspx.cs",
-              "DocumentMoniker": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\PromoWebForms\\Default.aspx.cs",
-              "RelativeDocumentMoniker": "Default.aspx.cs",
-              "ToolTip": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\PromoWebForms\\Default.aspx.cs",
-              "RelativeToolTip": "Default.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T23:03:27.74Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -62,93 +46,93 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArticuloRepository.cs",
+              "DocumentMoniker": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\Data\\ArticuloRepository.cs",
+              "RelativeDocumentMoniker": "..\\Data\\ArticuloRepository.cs",
+              "ToolTip": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\Data\\ArticuloRepository.cs",
+              "RelativeToolTip": "..\\Data\\ArticuloRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T01:23:45.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Exito.aspx",
+              "DocumentMoniker": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\PromoWebForms\\Exito.aspx",
+              "RelativeDocumentMoniker": "Exito.aspx",
+              "ToolTip": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\PromoWebForms\\Exito.aspx",
+              "RelativeToolTip": "Exito.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-04T01:14:26.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "VoucherRepository.cs",
+              "DocumentMoniker": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\Data\\VoucherRepository.cs",
+              "RelativeDocumentMoniker": "..\\Data\\VoucherRepository.cs",
+              "ToolTip": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\Data\\VoucherRepository.cs",
+              "RelativeToolTip": "..\\Data\\VoucherRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:53:10.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\Dominio\\Cliente.cs",
+              "RelativeDocumentMoniker": "..\\Dominio\\Cliente.cs",
+              "ToolTip": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\Dominio\\Cliente.cs",
+              "RelativeToolTip": "..\\Dominio\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:09:46.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Registrar.aspx.cs",
+              "DocumentMoniker": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\PromoWebForms\\Registrar.aspx.cs",
+              "RelativeDocumentMoniker": "Registrar.aspx.cs",
+              "ToolTip": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\PromoWebForms\\Registrar.aspx.cs",
+              "RelativeToolTip": "Registrar.aspx.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T23:52:28.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "PromoBusiness.cs",
               "DocumentMoniker": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\Business\\PromoBusiness.cs",
               "RelativeDocumentMoniker": "..\\Business\\PromoBusiness.cs",
               "ToolTip": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\Business\\PromoBusiness.cs",
               "RelativeToolTip": "..\\Business\\PromoBusiness.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAkwJcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-03T22:58:50.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VoucherRepository.cs",
-              "DocumentMoniker": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\Data\\VoucherRepository.cs",
-              "RelativeDocumentMoniker": "..\\Data\\VoucherRepository.cs",
-              "ToolTip": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\Data\\VoucherRepository.cs",
-              "RelativeToolTip": "..\\Data\\VoucherRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T22:57:12.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClienteRepository.cs",
-              "DocumentMoniker": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\Data\\ClienteRepository.cs",
-              "RelativeDocumentMoniker": "..\\Data\\ClienteRepository.cs",
-              "ToolTip": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\Data\\ClienteRepository.cs",
-              "RelativeToolTip": "..\\Data\\ClienteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T22:56:32.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ArticuloRepository.cs",
-              "DocumentMoniker": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\Data\\ArticuloRepository.cs",
-              "RelativeDocumentMoniker": "..\\Data\\ArticuloRepository.cs",
-              "ToolTip": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\Data\\ArticuloRepository.cs",
-              "RelativeToolTip": "..\\Data\\ArticuloRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T22:55:58.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccesoDatos.cs",
-              "DocumentMoniker": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\Data\\AccesoDatos.cs",
-              "RelativeDocumentMoniker": "..\\Data\\AccesoDatos.cs",
-              "ToolTip": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\Data\\AccesoDatos.cs",
-              "RelativeToolTip": "..\\Data\\AccesoDatos.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwAYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T22:51:06.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Web.config",
-              "DocumentMoniker": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\PromoWebForms\\Web.config",
-              "RelativeDocumentMoniker": "Web.config",
-              "ToolTip": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\PromoWebForms\\Web.config",
-              "RelativeToolTip": "Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-10-03T20:43:35.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PromoRepository.cs",
-              "DocumentMoniker": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\PromoWebForms\\DAL\\PromoRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\PromoRepository.cs",
-              "ToolTip": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\PromoWebForms\\DAL\\PromoRepository.cs",
-              "RelativeToolTip": "DAL\\PromoRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA3wB8AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T20:40:33.818Z",
+              "Title": "Registrar.aspx",
+              "DocumentMoniker": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\PromoWebForms\\Registrar.aspx",
+              "RelativeDocumentMoniker": "Registrar.aspx",
+              "ToolTip": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\PromoWebForms\\Registrar.aspx",
+              "RelativeToolTip": "Registrar.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-03T23:52:22.957Z",
               "EditorCaption": ""
             }
           ]

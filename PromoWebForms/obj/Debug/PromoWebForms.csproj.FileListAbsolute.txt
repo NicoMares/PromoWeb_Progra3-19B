@@ -16,3 +16,10 @@ E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebF
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWebForms.csproj.CoreCompileInputs.cache
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWeb.dll
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWeb.pdb
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebForms\bin\Business.dll
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebForms\bin\Dominio.dll
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebForms\bin\Data.dll
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebForms\bin\Business.pdb
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebForms\bin\Dominio.pdb
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebForms\bin\Data.pdb
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWeb.E7CABCDC.Up2Date
