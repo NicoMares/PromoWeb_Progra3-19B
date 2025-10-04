@@ -1,6 +1,7 @@
 <%@ Page Title="Elegí tu premio" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="SeleccionPremio.aspx.cs" Inherits="PromoWeb.SeleccionPremio" %>
 <asp:Content ID="Main" ContentPlaceHolderID="MainContent" runat="server">
-  <h2>Elegí tu premio</h2>
+ 
+    <h2 class="titulos">Seleciona Un Premio</h2>
   <asp:HiddenField ID="hfCodigo" runat="server" />
   <asp:Repeater ID="repPremios" runat="server">
     <ItemTemplate>

@@ -7,3 +7,12 @@ E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\Data\obj\
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\Data\obj\Debug\Data.csproj.Up2Date
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\Data\obj\Debug\Data.dll
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\Data\obj\Debug\Data.pdb
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Data\bin\Debug\Data.dll
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Data\bin\Debug\Data.pdb
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Data\bin\Debug\Dominio.dll
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Data\bin\Debug\Dominio.pdb
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Data\obj\Debug\Data.csproj.AssemblyReference.cache
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Data\obj\Debug\Data.csproj.Up2Date
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Data\obj\Debug\Data.dll
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Data\obj\Debug\Data.pdb

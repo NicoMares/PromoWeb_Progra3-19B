@@ -1,7 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Documentos\\UTN\\3C - PROGRAMACION III\\Repos_G19\\PromoWeb_Progra3-19B\\PromoWebForms\\",
-  "Documents": [],
+  "WorkspaceRootPath": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\dal\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|solutionrelative:dal\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\registrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|solutionrelative:registrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|f:\\github\\facultad\\progra 3- segundo intento\\promoweb_progra3-19b\\promowebforms\\seleccionpremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6E1E62CB-6E74-4E34-8F0B-3E3B2B31E1E5}|PromoWebForms.csproj|solutionrelative:seleccionpremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,15 +26,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Estilos.css",
+              "DocumentMoniker": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\DAL\\Estilos.css",
+              "RelativeDocumentMoniker": "DAL\\Estilos.css",
+              "ToolTip": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\DAL\\Estilos.css",
+              "RelativeToolTip": "DAL\\Estilos.css",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-04T02:26:48.536Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Registrar.aspx",
+              "DocumentMoniker": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\Registrar.aspx",
+              "RelativeDocumentMoniker": "Registrar.aspx",
+              "ToolTip": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\Registrar.aspx",
+              "RelativeToolTip": "Registrar.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-04T04:04:28.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\Default.aspx",
+              "RelativeDocumentMoniker": "Default.aspx",
+              "ToolTip": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\Default.aspx",
+              "RelativeToolTip": "Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-04T04:03:49.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SeleccionPremio.aspx",
+              "DocumentMoniker": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\SeleccionPremio.aspx",
+              "RelativeDocumentMoniker": "SeleccionPremio.aspx",
+              "ToolTip": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\PromoWeb_Progra3-19B\\PromoWebForms\\SeleccionPremio.aspx",
+              "RelativeToolTip": "SeleccionPremio.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-04T02:26:28.817Z",
+              "EditorCaption": ""
             }
           ]
         }

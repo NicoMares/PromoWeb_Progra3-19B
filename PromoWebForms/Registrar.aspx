@@ -1,6 +1,6 @@
 <%@ Page Title="Registrar datos" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Registrar.aspx.cs" Inherits="PromoWeb.Registrar" %>
 <asp:Content ID="Main" ContentPlaceHolderID="MainContent" runat="server">
-  <h2>Ingresá tus datos</h2>
+ <h2 class="titulos">Contactos</h2>
   <asp:HiddenField ID="hfCodigo" runat="server" />
   <asp:HiddenField ID="hfArticuloId" runat="server" />
 

@@ -23,3 +23,10 @@ E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebF
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebForms\bin\Dominio.pdb
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebForms\bin\Data.pdb
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWeb.E7CABCDC.Up2Date
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\bin\Business.dll
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\bin\Dominio.dll
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\bin\Data.dll
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\bin\Business.pdb
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\bin\Dominio.pdb
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\bin\Data.pdb
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWeb.E7CABCDC.Up2Date

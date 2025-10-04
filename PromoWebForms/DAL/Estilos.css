@@ -6,17 +6,34 @@
 
 }
 
+:root {
+    --dark-bg: black;
+    --darker-bg: black;
+    --accent:lightblue; 
+    --accent-glow:lightblue;
+    --text: #black;
+}
+
 body {
-    background-color: lightcyan;
+    background-color: black;
+    background: linear-gradient(45deg, var(--accent) 20%, #ffffff 80%);
     color: black;
     min-height: 100vh;
     line-height: 1.5;
-    /* Quitar display: flex aquí */
-   
+ 
+}
+.logofacu {
+    position: absolute;
+    top: 25px; /*Que tan arriba esta el logo*/
+    right: 30px; /* pegado a la derecha */
+    width: 100px;
+    height: auto;
+    z-index: 1100; 
+    display: block;
 }
 
 
-/* Barra fija arriba */
+/* Barra De  arriba */
 .navbar-brand {
     color:black;
     position: fixed;
@@ -32,46 +49,65 @@ body {
     line-height: normal;
     z-index: 1000;
     font-size:1.5em;
-   
+   background: linear-gradient(45deg, var(--accent) 20%, #ffffff 80%);
 }
 
 .codigo-voucher {
-   
-  
-    padding: 120px 60px;
+    padding: 180px 60px;
     border-radius: 8px;
     margin: 0;
-    font-size: 1.5em;/*Tamañó de la Letra */
+    font-size: 2em; /*Tamañó de la Letra */
     text-align: center;
+  
+}
+
+.boton-Siguiente {
     
 }
 
-.boton-Siguiente{
-
-
-
+.titulos{
+    color: black;
+    font-size: 2.3em;
+    text-align: center;
 }
-.logofacu {
-    width: 100px; /* Tamaño del Logo de la facu */
-    height: auto;
-    margin-left: auto; /* Manda UTN  a La Derecha */
-    display: block;
-}
+
+
 /*Imagenes de los Productos*/
+
+
 .img-fluid {
-    width: 230px; /*Ancho de la Foto*/
+    width: 250px; /*Ancho de la Foto*/
     height: 230px; /*Alto De las Fotos*/
-   
- 
-    box-shadow: 0 6px 10px rgba(136, 0, 255, 0.5); /*Color del Bordecito en Violeta*/
-    border-radius: 28px; /*Le Genera Bordecito para que no parezca un cuadrado*/
+
+
+    box-shadow: 0 16px 20px rgba(22, 214, 240, 0.5); /*Color del Bordecito en Celeste */
+    border-radius: 38px; /*Le Genera Bordecito para que no parezca un cuadrado*/
     object-fit: cover; /* Ajuta la foto para que no quede estirada a lo 4:3 */
+    margin-top: -60px; /* Espacio entre las fotos  y el  texto */
   
-    gap: 20px; /* Espacio entre cada Foto */
-    justify-content: center; /*  centra las imagenes */
-
-}
-.row g-3 {
    
+    justify-content: center; /*  centra las fotos */
 }
 
+
+
+.row {
+    display: flex; /*Va Al Medio*/
+    flex-direction: column; /* Pone La Lista de Forma de Columna */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    padding-top: 90px; /* Mueve todo más abajo */
+    gap: 6px; /* Espacio entre el label y el  input */
+}
+
+    .row label {
+        min-width: 90px;
+        text-align: left;
+    }
+
+    .row input {
+        width: 230px;/*Ancho del Textobox*/
+        padding: 3px;/*Alto TextBox*/
+        border-radius: 5px;
+        border: 2px solid #ccc;
+    }

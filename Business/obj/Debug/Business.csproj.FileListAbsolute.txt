@@ -9,3 +9,14 @@ E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\Business\
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\Business\obj\Debug\Business.csproj.Up2Date
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\Business\obj\Debug\Business.dll
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\PromoWeb_Progra3-19B\Business\obj\Debug\Business.pdb
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Business\bin\Debug\Business.dll
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Business\bin\Debug\Business.pdb
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Business\bin\Debug\Data.dll
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Business\bin\Debug\Dominio.dll
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Business\bin\Debug\Data.pdb
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Business\bin\Debug\Dominio.pdb
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Business\obj\Debug\Business.csproj.Up2Date
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Business\obj\Debug\Business.dll
+F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Business\obj\Debug\Business.pdb
