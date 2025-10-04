@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\.github",
+    "\\Business",
     "\\PromoWebForms",
     "\\PromoWebForms\\DAL"
   ],
-  "SelectedNode": "\\PromoWebForms\\PromoWebForms.sln",
+  "SelectedNode": "\\Business\\PromoBusiness.cs",
   "PreviewInSolutionExplorer": false
 }

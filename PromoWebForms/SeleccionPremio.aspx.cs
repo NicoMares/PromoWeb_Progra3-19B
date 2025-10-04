@@ -1,6 +1,5 @@
 using System;
 using System.Web.UI.WebControls;
-using PromoWeb.DAL;
 using Dominio;
 using Business;
 
@@ -8,8 +7,7 @@ namespace PromoWeb
 {
     public partial class SeleccionPremio : System.Web.UI.Page
     {
-        private readonly PromoRepository _repo = new PromoRepository();
-        private readonly PromoBusiness _promoBsns  = new PromoBusiness();
+       private readonly PromoBusiness _promoBsns  = new PromoBusiness();
 
         protected void Page_Load(object sender, EventArgs e)
         {
