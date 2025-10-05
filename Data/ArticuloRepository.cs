@@ -1,10 +1,6 @@
 ﻿using Dominio;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Data
 {
@@ -12,28 +8,38 @@ namespace Data
     {
         public List<Articulo> Listar()
         {
-            List<Articulo> lista = new List<Articulo>();
-            AccesoDatos datos = new AccesoDatos();
+            var lista = new List<Articulo>();
+            var datos = new AccesoDatos();
+
             try
             {
-                datos.setearConsulta("SELECT Id, Codigo, Nombre, Descripcion, IdMarca, IdCategoria, Precio FROM Articulos");
+                datos.setearConsulta(
+                    "SELECT Id, Codigo, Nombre, Descripcion, IdMarca, IdCategoria, Precio " +
+                    "FROM Articulos ORDER BY Nombre"
+                );
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read())
                 {
-                    Articulo aux = new Articulo();
-                    aux.Id = (int)datos.Lector["Id"];
-                    aux.Codigo = (string)datos.Lector["Codigo"];
-                    aux.Nombre = (string)datos.Lector["Nombre"];
-                    aux.Descripcion = (string)datos.Lector["Descripcion"];
-                    aux.IdMarca = (int)datos.Lector["IdMarca"];
-                    aux.IdCategoria = (int)datos.Lector["IdCategoria"];
-                    aux.Precio = (decimal)datos.Lector["Precio"];
+                    var aux = new Articulo
+                    {
+                        Id = (int)datos.Lector["Id"],
+                        Codigo = datos.Lector["Codigo"] is DBNull ? "" : (string)datos.Lector["Codigo"],
+                        Nombre = datos.Lector["Nombre"] is DBNull ? "" : (string)datos.Lector["Nombre"],
+                        Descripcion = datos.Lector["Descripcion"] is DBNull ? "" : (string)datos.Lector["Descripcion"],
+                        IdMarca = datos.Lector["IdMarca"] is DBNull ? 0 : (int)datos.Lector["IdMarca"],
+                        IdCategoria = datos.Lector["IdCategoria"] is DBNull ? 0 : (int)datos.Lector["IdCategoria"],
+                        Precio = datos.Lector["Precio"] is DBNull ? 0m : (decimal)datos.Lector["Precio"],
+                    };
 
+                    // Carga TODAS las imágenes del artículo (y agrega fallback si no hay)
                     aux.Imagenes = ListarImagenes(aux.Id);
+                    if (aux.Imagenes == null || aux.Imagenes.Count == 0)
+                        aux.Imagenes = new List<Imagen> { new Imagen { ImagenUrl = "img/noimage.png" } };
 
                     lista.Add(aux);
                 }
+
                 return lista;
             }
             finally
@@ -44,22 +50,32 @@ namespace Data
 
         private List<Imagen> ListarImagenes(int idArticulo)
         {
-            List<Imagen> lista = new List<Imagen>();
-            AccesoDatos datos = new AccesoDatos();
+            var lista = new List<Imagen>();
+            var datos = new AccesoDatos();
+
             try
             {
-                datos.setearConsulta("SELECT Id, IdArticulo, ImagenUrl FROM Imagenes WHERE IdArticulo=@id");
+                datos.setearConsulta(
+                    "SELECT Id, IdArticulo, ImagenUrl " +
+                    "FROM Imagenes WHERE IdArticulo=@id ORDER BY Id"
+                );
                 datos.setearParametro("@id", idArticulo);
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read())
                 {
-                    Imagen img = new Imagen();
-                    img.Id = (int)datos.Lector["Id"];
-                    img.IdArticulo = (int)datos.Lector["IdArticulo"];
-                    img.ImagenUrl = (string)datos.Lector["ImagenUrl"];
-                    lista.Add(img);
+                    // Evita nulos en URL
+                    var url = datos.Lector["ImagenUrl"] is DBNull ? "" : (string)datos.Lector["ImagenUrl"];
+                    if (string.IsNullOrWhiteSpace(url)) continue;
+
+                    lista.Add(new Imagen
+                    {
+                        Id = (int)datos.Lector["Id"],
+                        IdArticulo = (int)datos.Lector["IdArticulo"],
+                        ImagenUrl = url
+                    });
                 }
+
                 return lista;
             }
             finally
@@ -68,19 +84,18 @@ namespace Data
             }
         }
 
+        // Nota: el parámetro es realmente el ID del artículo, no "código".
         public string ObtenerNombrePorCodigo(int codigoArticulo)
         {
-            AccesoDatos datos = new AccesoDatos();
+            var datos = new AccesoDatos();
             try
             {
-                datos.setearConsulta("SELECT Nombre FROM Articulos WHERE id = @codigo");
+                datos.setearConsulta("SELECT Nombre FROM Articulos WHERE Id = @codigo");
                 datos.setearParametro("@codigo", codigoArticulo);
                 datos.ejecutarLectura();
 
                 if (datos.Lector.Read())
-                {
-                    return (string)datos.Lector["Nombre"];
-                }
+                    return datos.Lector["Nombre"] is DBNull ? "" : (string)datos.Lector["Nombre"];
 
                 throw new Exception("Artículo no encontrado.");
             }
@@ -89,6 +104,5 @@ namespace Data
                 datos.cerrarConexion();
             }
         }
-
     }
 }

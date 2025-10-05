@@ -20,3 +20,14 @@ F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Business\obj\D
 F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Business\obj\Debug\Business.csproj.Up2Date
 F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Business\obj\Debug\Business.dll
 F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Business\obj\Debug\Business.pdb
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\Business\bin\Debug\Business.dll
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\Business\bin\Debug\Business.pdb
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\Business\bin\Debug\Data.dll
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\Business\bin\Debug\Dominio.dll
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\Business\bin\Debug\Data.pdb
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\Business\bin\Debug\Dominio.pdb
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\Business\obj\Debug\Business.csproj.Up2Date
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\Business\obj\Debug\Business.dll
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\Business\obj\Debug\Business.pdb

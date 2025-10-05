@@ -30,3 +30,10 @@ F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\
 F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\bin\Dominio.pdb
 F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\bin\Data.pdb
 F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWeb.E7CABCDC.Up2Date
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\PromoWebForms\bin\Business.dll
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\PromoWebForms\bin\Dominio.dll
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\PromoWebForms\bin\Data.dll
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\PromoWebForms\bin\Business.pdb
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\PromoWebForms\bin\Dominio.pdb
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\PromoWebForms\bin\Data.pdb
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\PromoWebForms\obj\Debug\PromoWeb.E7CABCDC.Up2Date

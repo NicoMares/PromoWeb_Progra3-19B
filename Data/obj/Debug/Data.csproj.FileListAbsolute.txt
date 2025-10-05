@@ -16,3 +16,12 @@ F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Data\obj\Debug
 F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Data\obj\Debug\Data.csproj.Up2Date
 F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Data\obj\Debug\Data.dll
 F:\Github\Facultad\Progra 3- Segundo Intento\PromoWeb_Progra3-19B\Data\obj\Debug\Data.pdb
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\Data\bin\Debug\Data.dll
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\Data\bin\Debug\Data.pdb
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\Data\bin\Debug\Dominio.dll
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\Data\bin\Debug\Dominio.pdb
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\Data\obj\Debug\Data.csproj.AssemblyReference.cache
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\Data\obj\Debug\Data.csproj.Up2Date
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\Data\obj\Debug\Data.dll
+C:\Users\aledesma\source\repos\PromoWeb_Progra3-19B\Data\obj\Debug\Data.pdb

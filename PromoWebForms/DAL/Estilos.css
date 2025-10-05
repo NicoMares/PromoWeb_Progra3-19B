@@ -1,113 +1,197 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif; 
-
-}
-
+/* =======================
+   Tema Promo (White + Sky)
+   ======================= */
 :root {
-    --dark-bg: black;
-    --darker-bg: black;
-    --accent:lightblue; 
-    --accent-glow:lightblue;
-    --text: #black;
+    --bg: #f5faff;
+    --surface: #ffffff;
+    --primary: #0ea5e9; /* celeste */
+    --primary-600: #0284c7;
+    --primary-700: #0369a1;
+    --ring: rgba(14,165,233,.28);
+    --text: #0f172a;
+    --muted: #64748b;
+    --border: #e2e8f0;
+    --shadow: 0 10px 30px rgba(2,132,199,.10);
+    --radius: 16px;
 }
 
-body {
-    background-color: black;
-    background: linear-gradient(45deg, var(--accent) 20%, #ffffff 80%);
-    color: black;
-    min-height: 100vh;
-    line-height: 1.5;
- 
+/* Fondo sutil con “ondas” */
+html, body {
+    height: 100%;
+    background: radial-gradient(1200px 700px at 110% -10%, rgba(14,165,233,.06), transparent 60%), radial-gradient(900px 600px at -10% 120%, rgba(14,165,233,.05), transparent 60%), var(--bg);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
-.logofacu {
-    position: absolute;
-    top: 25px; /*Que tan arriba esta el logo*/
-    right: 30px; /* pegado a la derecha */
-    width: 100px;
-    height: auto;
-    z-index: 1100; 
+
+/* -------- Navbar glass -------- */
+.navbar {
+    background: rgba(255,255,255,.85) !important;
+    backdrop-filter: saturate(130%) blur(8px);
+    border-bottom: 1px solid var(--border) !important;
+}
+
+    .navbar .navbar-brand {
+        font-weight: 800;
+        letter-spacing: .2px;
+        background: linear-gradient(90deg, var(--primary-600), var(--primary));
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent !important;
+    }
+
+/* -------- Titulos / contenedores -------- */
+.titulos, h1, h2, h3 {
+    font-weight: 800;
+    letter-spacing: .3px;
+}
+
+.page {
+    animation: fadeInUp .25s ease-out both;
+}
+
+/* -------- Tarjetas de premio -------- */
+.premio-card {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+
+    .premio-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 12px 36px rgba(2,132,199,.15);
+        border-color: #cfe8f7;
+    }
+
+    .premio-card.is-selected {
+        border-color: var(--primary);
+        box-shadow: 0 0 0 4px var(--ring), var(--shadow);
+    }
+
+/* Imagen del premio */
+.articulo-img {
+    aspect-ratio: 4 / 3;
+    width: 100%;
+    object-fit: cover;
+    background: #e0f2fe;
+}
+
+/* -------- Carrusel Bootstrap a tono -------- */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(44%) sepia(73%) saturate(636%) hue-rotate(167deg) brightness(95%) contrast(95%);
+}
+
+.carousel .carousel-item {
+    transition: transform .4s ease, opacity .4s ease;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: var(--primary);
+}
+
+/* -------- Formularios -------- */
+.form-label {
+    font-weight: 600;
+    color: var(--muted);
+}
+
+.form-control, .form-select {
+    border-radius: 12px;
+    border-color: var(--border);
+    background-color: #fff;
+    transition: border-color .15s, box-shadow .15s, background-color .15s;
+}
+
+    .form-control:focus, .form-select:focus {
+        border-color: var(--primary);
+        box-shadow: 0 0 0 4px var(--ring);
+    }
+
+.form-check-input {
+    border-color: var(--border);
+    accent-color: var(--primary);
+}
+
+/* -------- Botones -------- */
+.btn {
+    border-radius: 12px;
+    font-weight: 700;
+    letter-spacing: .2px;
+}
+
+.btn-primary {
+    background: linear-gradient(180deg, var(--primary), var(--primary-600));
+    border-color: var(--primary-600);
+    box-shadow: 0 8px 22px rgba(14,165,233,.25);
+}
+
+    .btn-primary:hover {
+        background: linear-gradient(180deg, var(--primary-600), var(--primary-700));
+        border-color: var(--primary-700);
+    }
+
+.btn-outline-secondary {
+    border-color: #cfe8f7;
+    color: var(--primary-600);
+}
+
+    .btn-outline-secondary:hover {
+        background: #e8f6ff;
+        border-color: #a8daf5;
+        color: #075985;
+    }
+
+.btn-success {
+    box-shadow: 0 8px 22px rgba(34,197,94,.16);
+}
+
+/* -------- Utilidades -------- */
+.bg-surface {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.text-muted {
+    color: var(--muted) !important;
+}
+
+.shadow-sky {
+    box-shadow: var(--shadow);
+}
+
+/* -------- Logo UTN -------- */
+.logofacu-img {
+    height: 44px;
+    width: auto;
     display: block;
 }
 
-
-/* Barra De  arriba */
-.navbar-brand {
-    color:black;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 50px;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: deepskyblue;
-    line-height: normal;
-    z-index: 1000;
-    font-size:1.5em;
-   background: linear-gradient(45deg, var(--accent) 20%, #ffffff 80%);
-}
-
-.codigo-voucher {
-    padding: 180px 60px;
-    border-radius: 8px;
-    margin: 0;
-    font-size: 2em; /*Tamañó de la Letra */
-    text-align: center;
-  
-}
-
-.boton-Siguiente {
-    
-}
-
-.titulos{
-    color: black;
-    font-size: 2.3em;
-    text-align: center;
-}
-
-
-/*Imagenes de los Productos*/
-
-
-.img-fluid {
-    width: 250px; /*Ancho de la Foto*/
-    height: 230px; /*Alto De las Fotos*/
-
-
-    box-shadow: 0 16px 20px rgba(22, 214, 240, 0.5); /*Color del Bordecito en Celeste */
-    border-radius: 38px; /*Le Genera Bordecito para que no parezca un cuadrado*/
-    object-fit: cover; /* Ajuta la foto para que no quede estirada a lo 4:3 */
-    margin-top: -60px; /* Espacio entre las fotos  y el  texto */
-  
-   
-    justify-content: center; /*  centra las fotos */
-}
-
-
-
-.row {
-    display: flex; /*Va Al Medio*/
-    flex-direction: column; /* Pone La Lista de Forma de Columna */
-    align-items: center; /* Centra horizontalmente */
-    justify-content: center; /* Centra verticalmente */
-    padding-top: 90px; /* Mueve todo más abajo */
-    gap: 6px; /* Espacio entre el label y el  input */
-}
-
-    .row label {
-        min-width: 90px;
-        text-align: left;
+/* -------- Animación -------- */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(8px)
     }
 
-    .row input {
-        width: 230px;/*Ancho del Textobox*/
-        padding: 3px;/*Alto TextBox*/
-        border-radius: 5px;
-        border: 2px solid #ccc;
+    to {
+        opacity: 1;
+        transform: none
     }
+}
+
+/* -------- Móvil -------- */
+@media (max-width:576px) {
+    .navbar-brand {
+        font-size: 1.05rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
